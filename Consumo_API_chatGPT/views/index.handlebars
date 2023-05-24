@@ -1,0 +1,26 @@
+<p class="logo d-flex justify-content-center align-items-center">Quizzin' Easy</p>
+<div class="container d-flex justify-content-center align-items-center mt-4">
+ <div  class="quiz-container border border-5 border-dark">
+  <h2 id="questao" class="text-light p-lg-5 border border-5 border-primary p-3 m-5 rounded rounded-2 my-custom-text-questao text-center">{{questao}}</h2>
+  <div id="grupobotoes" class=" container-fluid text-center justify-content-between m-5 col-auto">
+     {{#each buttons}}
+        <div class="botao col mb-3">
+          <button id="{{this.id}}" class="btn btn-primary btn-lg answer-button w-100 my-custom-text">{{this.value}}</button>
+        </div>
+      {{/each}}
+  </div>
+ </div>
+</div>  
+
+{{!-- <div class="botao col mb-3">
+      <button id="botao_01" class="btn btn-primary btn-lg answer-button w-100 my-custom-text">{{correta}}</button>
+    </div>
+    <div class="botao col mb-3">
+      <button id="botao_02" class="btn btn-primary btn-lg answer-button w-100 my-custom-text">{{errada1}}</button>
+    </div>
+    <div class="botao col mb-3">
+      <button id="botao_03" class="btn btn-primary btn-lg answer-button w-100 my-custom-text">{{errada2}}</button>
+    </div>
+    <div class="botao col mb-3">
+      <button id="botao_04" class="btn btn-primary btn-lg answer-button w-100 my-custom-text">{{errada3}}</button>
+    </div> --}}
