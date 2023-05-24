@@ -1,3 +1,5 @@
+# **Consumo API do chatPGT**
+
 A aplicação de quiz com temas aleatórios é uma plataforma que utiliza a API da OpenAI para criar uma experiência interativa ao consumir os recursos da API, a aplicação é capaz de gerar perguntas e respostas com base em uma ampla variedade de tópicos.
 Através de uma interface intuitiva, os usuários têm acesso a uma série de perguntas aleatórias que abrangem diversos temas. A aplicação utiliza a avançada capacidade de processamento de linguagem natural da API da OpenAI para criar perguntas bem formuladas e respostas precisas.
 
